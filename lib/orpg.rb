@@ -1,6 +1,6 @@
-module RPG
+module ORPG
 
-    class RPG
+    class ORPG
 
         ## Array used for generation
         @@number    = ('0' .. '9').to_a

@@ -1,15 +1,15 @@
-# RPG
-Random Password Generator
+# ORPG
+Ogromny Random Password Generator
 
 ### Installation
 ```sh
 git clone https://github.com/Ogromny/RPG.git
 cd RPG
-gem build rpg.gemspec
+gem build orpg.gemspec
 gem install *.gem
 ```
 
 ### Execute
 ```sh
-rpg
+orpg
 ```

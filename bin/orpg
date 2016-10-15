@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require 'rpg'
+require 'orpg'
 require 'optionparser'
 
-puts "Usage:\n\trpg --length length [-n,--number] [-l,--lowercase] [-u,--uppercase-] [-s,--special]" if ARGV.length == 0
+puts "Usage:\n\torpg --length length [-n,--number] [-l,--lowercase] [-u,--uppercase-] [-s,--special]" if ARGV.length == 0
 
 length = 0
 options =
@@ -35,4 +35,4 @@ parser =
 
 parser.parse!
 
-puts RPG::RPG.generate(length, options)
+puts ORPG::ORPG.generate(length, options)
