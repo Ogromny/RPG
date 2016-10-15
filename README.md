@@ -11,5 +11,5 @@ gem install *.gem
 
 ### Execute
 ```sh
-parol
+rpg
 ```
